@@ -1,0 +1,59 @@
+body {
+  background-color: #1b1f2a;
+  color: #f5f1e3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.room {
+  width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #242938;
+  border: 2px solid #3a4258;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.victory-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+.victory-title {
+  font-size: 32px;
+  color: #f4a94a;
+  text-shadow: 0 0 12px rgba(244, 169, 74, 0.6);
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.victory-subtitle {
+  color: #b8bdd0;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.button {
+  display: block;
+  width: 350px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #e08a2e;
+  color: #161616;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.button:hover {
+  background-color: #f4a94a;
+  transform: translateY(-2px);
+}
