@@ -15,31 +15,6 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-.victory-icon {
-  font-size: 60px;
-  margin-bottom: 10px;
-  animation: pulse 1.8s ease-in-out infinite;
-}
-
-.victory-title {
-  font-size: 32px;
-  color: #f4a94a;
-  text-shadow: 0 0 12px rgba(244, 169, 74, 0.6);
-  margin: 10px 0;
-  letter-spacing: 1px;
-}
-
-.victory-subtitle {
-  color: #b8bdd0;
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-}
-
 .button {
   display: block;
   width: 350px;
